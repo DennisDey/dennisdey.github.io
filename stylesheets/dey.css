@@ -1,0 +1,41 @@
+body {
+    background-image: url(../image/b1.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+a{ 
+    text-decoration: none;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    color: rgba(15, 9, 1, 0.733);
+    border-bottom: 2px solid green;
+    border-right: 2px solid green;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgb(112, 25, 25);
+    margin-top: 10px;
+}
+.galary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 350px;
+    height: 300px;
+    margin: 8px;
+    transition: all 1s;
+
+}
+img:hover {
+    transform:scale(1.1)
+}
